@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    
+        <div class="row">
+            <div class="col-md-12 header-color">
+                <input type="text" id="searchInput">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg" alt="" class="searchIcon"> 
+            </div>
+        </div>
+        
+
+        <div class="row">
+            <div class="col-md-12 bg-image">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add New Post</button>
+            </div>
+        </div>
+        <!-- Trigger the modal with a button -->
+        
+    <div class="container">
+        <div class="row" id="row">
+
+        </div>
+    </div>
+      
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Введите Название, Описание а также выберите изображение для поста!</h4>
+                </div>
+                <div class="modal-body">
+                    Заголовок <input type="text" id="title">
+                    Описание <input type="text" id="description">
+                    Изображение<input type="text" id="image">
+                    <button id="addData">Add</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    color: #110C02;
+}
+.header-color {
+    background-color: #110C02;
+    height: 50px;
+}
+#searchInput {
+    background-color: white;
+    border: none;
+    height: 20px;
+    /* float: right; */
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+
+.bg-image {
+    height: 400px;
+    background-image: url(https://static-cdn.123rf.com/images/v5/index-thumbnail/84170952-b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.btn-lg {
+    margin-top: 170px;
+    background-color: #110C02;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-lg:hover {
+    background-color: white;
+    color: #110C02;
+}
+.images img{
+    height: 400px;
+    width: 400px;
+    border: 3px solid #110C02;
+    margin-top: 70px;
+    
+}
+.margin-bottom {
+    margin-bottom:  50px;
+    
+}
+.header-color img {
+    height: 15px;
+    background-color: #fff;
+    width: 15px;
+    position: absolute;
+    right: 110px;
+    top: 18px;
+}
